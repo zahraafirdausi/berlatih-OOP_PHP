@@ -1,7 +1,10 @@
 <?php
-
+require_once 'animal.php';
 class Frog extends Animal{
-    public $name;
+
+   public function jump(){
+       echo "hop hop";
+   }
 }
 
 ?>
